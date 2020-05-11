@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#new label {
+  display: flex;
+  width: 120px;
+}
+
+#new input {
+  width: 220px;
+}
+
+.task {
+  border: rgb(55, 55, 55) 4px solid;
+  margin: 4px;
+  width: 90vw;
+  height: 10vh;
+  max-width: 350px;
+  transition-duration: 1s;
+}
+
+.complete {
+  background-color: seagreen;
+}
+.taskEdit,
+.taskCompleted,
+.taskDelete {
+  display: flex;
+}
+
+.taskName {
+  background-color: rgb(141, 141, 141);
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.edit-form {
+  display: none;
+}
+
+.updateDescriptionButton {
+  display: none;
+}
